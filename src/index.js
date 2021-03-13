@@ -19,7 +19,7 @@ const onClickAdd = () => {
   completeButton.addEventListener("click", () => {
     deleteAction(completeButton);
     const completeArea = document.getElementById("complete-list");
-    completeArea.appendChild(div);
+    console.log(completeButton);
   });
 
   // button(未完了)タグ生成
